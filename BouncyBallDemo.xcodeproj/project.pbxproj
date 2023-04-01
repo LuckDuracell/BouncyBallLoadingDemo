@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1BBC4C29D7EF9A00CA8378 /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BBC4B29D7EF9A00CA8378 /* LoadingBar.swift */; };
+		0A1BBC4E29D7EF9E00CA8378 /* BouncyBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BBC4D29D7EF9E00CA8378 /* BouncyBall.swift */; };
 		0A7C2B1E29CE19DF00317845 /* BouncyBallDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C2B1D29CE19DF00317845 /* BouncyBallDemoApp.swift */; };
 		0A7C2B2029CE19DF00317845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C2B1F29CE19DF00317845 /* ContentView.swift */; };
 		0A7C2B2229CE19E000317845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C2B2129CE19E000317845 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1BBC4B29D7EF9A00CA8378 /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
+		0A1BBC4D29D7EF9E00CA8378 /* BouncyBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyBall.swift; sourceTree = "<group>"; };
 		0A7C2B1A29CE19DF00317845 /* BouncyBallDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncyBallDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7C2B1D29CE19DF00317845 /* BouncyBallDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyBallDemoApp.swift; sourceTree = "<group>"; };
 		0A7C2B1F29CE19DF00317845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 			children = (
 				0A7C2B1D29CE19DF00317845 /* BouncyBallDemoApp.swift */,
 				0A7C2B1F29CE19DF00317845 /* ContentView.swift */,
+				0A1BBC4B29D7EF9A00CA8378 /* LoadingBar.swift */,
+				0A1BBC4D29D7EF9E00CA8378 /* BouncyBall.swift */,
 				0A7C2B2129CE19E000317845 /* Assets.xcassets */,
 				0A7C2B2329CE19E000317845 /* BouncyBallDemo.entitlements */,
 				0A7C2B2429CE19E000317845 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1BBC4E29D7EF9E00CA8378 /* BouncyBall.swift in Sources */,
 				0A7C2B2029CE19DF00317845 /* ContentView.swift in Sources */,
 				0A7C2B1E29CE19DF00317845 /* BouncyBallDemoApp.swift in Sources */,
+				0A1BBC4C29D7EF9A00CA8378 /* LoadingBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
